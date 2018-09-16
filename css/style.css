@@ -1,0 +1,8 @@
+.backgroundImg{
+    background-image: url(../images/Universe_Sandbox_Background_Earth_&_Moon.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    height: 100%;
+}

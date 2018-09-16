@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +11,44 @@
     <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <div class="black lighten-4">
+    <div class="black lighten-4 backgroundImg">
         <div class="container">
             <div class="row">
-                <div class="col s12 m4 l3">
-                    <i class="fas fa-user-circle"></i>
+                <div class="col s12 m6 center offset-m3 white">
+                    <i class="fas fa-user-circle fa-7x"></i>
+                    <h1>Create Account</h1>
+                    <div class="input-field">
+                            <input type="text" id="email" name="Email">
+                            <label for="email">Email:</label>
+                        </div>
+                    <div class="input-field">
+                        <input type="text" id="companyName" name="companyName">
+                        <label for="companyName">Company Name:</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" id="password">
+                        <label for="password">Password:</label>
+                    </div>
+                    
+                    <div class="input-field">
+                            <input type="text" id="re-password" name="re-password">
+                            <label for="re-password">Re-type Password:</label>
+                        </div>
+                        
+                        <div class="input-field col s12">
+                                <select>
+                                  <option value="" disabled selected>Choose your option</option>
+                                  <option value="1">Option 1</option>
+                                  <option value="2">Option 2</option>
+                                  <option value="3">Option 3</option>
+                                </select>
+                                <label>Materialize Select</label>
+                              </div>
+                        <div class="input-field">
+                            <button type="button" class="btn">click me</button>
+                            </div>
                 </div>
             </div>
         </div>
@@ -23,4 +56,5 @@
     <script src="js/materialize.min.js"></script>
     <script src="js/style.js"></script>
 </body>
+
 </html>
